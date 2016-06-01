@@ -1,0 +1,18 @@
+Q.1 Define event bubbling.
+Ans: Because JavaScript allows DOM elements to be nested inside each other, if the handler of the child is clicked, the handler of
+
+parent will also work as if it were clicked too. That sums up what event bubbling really is.
+
+Q.2 How would you declare a three-dimensional array in Javascript?
+Ans: You can do it like this:
+
+var myArray = [[[]]];
+
+Q.3 What is "this" keyword in Javascript?
+Ans: this is used to refer to the current object in the code. In the global execution context (outside of any function), this refers to the global object, whether in strict mode or not.
+
+Q.4 Does Javascript support automatic type conversion?
+Ans: Yes. JavaScript does support automatic type conversion and it is the common way of type conversion used by JavaScript developers.
+
+Q.5 What is event delegation and how does it work?
+Ans: Event delegation allows us to avoid adding event listeners to specific nodes of the DOM; instead, the event listener is added to one parent. Using event delegation it’s possible to add an event handler to an element, wait for an event to bubble up from a child element and easily determine from which element the event originated.
